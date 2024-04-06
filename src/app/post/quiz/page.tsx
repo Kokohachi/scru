@@ -3,7 +3,7 @@ import { Header } from "@/stories/Header";
 import { Center, Container, Group, Paper, Stack, Text } from "@mantine/core";
 import { getCookie, hasCookie } from "cookies-next";
 import { useEffect, useState } from "react";
-import { User } from "../stories/Header";
+import { User } from "@/stories/Header";
 import { jwtDecode } from "jwt-decode";
 import { UserData } from "@/lib/auth";
 import { Logo } from "@/stories/Logo";
